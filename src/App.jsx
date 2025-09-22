@@ -9,6 +9,7 @@ import Logo from './components/Logo'
 import Poster from './components/Poster'
 import FilterPanel from './components/FilterPanel'
 import Cart from './assets/Cart.png'
+import ProductCard from './components/ProductCard'
 function App() {
 
 
@@ -28,6 +29,7 @@ function App() {
         <div>
           <Poster />
           <FilterPanel />
+          <ProductCard />
         </div>
       </div>
 
