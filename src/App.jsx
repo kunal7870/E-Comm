@@ -8,16 +8,17 @@ import Sidebar from './components/Sidebar'
 import Logo from './components/Logo'
 import Poster from './components/Poster'
 import FilterPanel from './components/FilterPanel'
+import Cart from './assets/Cart.png'
 function App() {
 
 
   return (
     <>
-      <header className="header h-[45px] border-2 mt-[26px] border-amber-700 flex justify-between ">
-        <div className="Company flex m-2 gap-2 items-center font-bold text-2xl"><Logo /> E-Comm</div>
+      <header className="header h-[45px]  mt-[26px] px-5 flex justify-between ">
+        <div className="Company flex m-2  gap-2 items-center font-bold text-2xl"><Logo /> E-Comm</div>
         <Navbar />
         <div className="cartArea flex m-2 gap-3 ">
-          <div className="cartpng"><img src="" alt="" />cart</div>
+          <img src={Cart} alt="cart" />
           <div>item</div>
           <div> $ 0.00</div>
         </div>
