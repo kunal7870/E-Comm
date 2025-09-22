@@ -2,9 +2,15 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      
+    <>
+    <div className="navbar h-[40px] w-[804px] flex gap-20 justify-center border-2 border-amber-500 ">
+        <div>Home</div>
+        <div>Bag</div>
+        <div>Sneakers</div>
+        <div>Contact</div>
     </div>
+    
+    </>
   )
 }
 
